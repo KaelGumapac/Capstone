@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>24/7 Balikbayan Fun Resort</title>
+<link rel="icon" href="images/zAS.png">
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Room Booking Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<!-- jquery tang ina mo -->
+ <script src="js/jquery.min.js"></script>
+ 
+<!-- //js --> 
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="icon" href="images/icons/zAS.png">
+<!-- //font-awesome-icons -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="nav-bar">
+		  <div class="logo">
+			<a href="#"><img class="logo-icon" src="images/maybe-1@1x.png" alt=""></a>
+		  </div>
+		  <ul class="menu-list">
+			<div class="icon cancel-btn">
+			  <i class="fas fa-times"></i>
+			</div>
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="../../about-UsFin/index.html">About Us</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="../../Contact/contact.html">Contact</a></li>
+		  </ul>
+		  <div class="icon menu-btn">
+			<i class="fas fa-bars"></i>
+		  </div>
+		</div>
+	  </nav>
+	
+	<div class="main">
+		
+		<div class="w3_agile_main_grids">
+			<div id='progress'><div id='progress-complete'></div></div>
+			
+			<form id="SignupForm" action="#" class="agile_form"method="post">
+				<fieldset>
+					<h3>Account information</h3>
+					<div class="form-group agileits_ryuzak_form w3_agileits_margin">
+						<div class="wthree_input">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input autocomplete="off" id="Name" type="text" name="Name" class="form-control" placeholder="Name" required="" />
+						</div>
+					</div>
+					<div class="form-group agileits_ryuzak_form">
+						<div class="wthree_input">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<input autocomplete="off" id="Email" type="email" name="Email" class="form-control" placeholder="Email" required="" />
+						</div>
+					</div>
+					<div class="form-group agileits_ryuzak_form w3_agileits_margin">
+						<div class="wthree_input">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<input autocomplete="off" id="Subject" type="text" name="Subject" class="form-control" placeholder="Phone number" onkeyup="numberonly(this)" minlength="11" maxlength="11" required="" />
+						</div>
+					</div>
+					<div class="form-group agileits_ryuzak_form">
+						<div class="wthree_input">
+							<i class="fa fa-child" aria-hidden="true"></i>
+							<input autocomplete="off" id="Password" type="text" name="Password" class="form-control" placeholder="2 adult 1 child" required="" />
+						</div>
+					</div>
+					<div class="form-group agileits_ryuzak_form w3_agileits_margin">
+						<div class="wthree_input">
+							<i class="fa fas fa-home" aria-hidden="true"></i>
+							<select class="form-control">
+							
+								<option value="Deluxe Room"> Deluxe Room (pool view) </option>
+								<option value="Deluxe Room"> Deluxe Room (beach view) </option>
+								<option value="Couple Room"> Couple Room (pool view) </option>
+								<option value="Couple Room"> Couple Room (beach view) </option>
+								<option value="Backpacker Room"> Backpacker Room (pool view)</option>
+								<option value="Backpacker Room"> Backpacker Room (beach view)</option>
+								<option value="7Pax"> 7Pax Room (pool view) </option>
+								<option value="6Pax"> 6Pax Room (pool view) </option>
+								<option value="5Pax"> 5Pax Room (pool view) </option>
+								<option value="4Pax"> 4Pax Room (pool view) </option>
+								<option value="3Pax"> 3Pax Room (pool view) </option>
+								
+							</select>
+						</div>
+					</div>
+					<div class="form-group agileits_ryuzak_form w3_agileits_margin">
+						<div class="wthree_input">
+							<h5 class="booking">Check-in</h5>
+							<input id="Name" type="date" name="Name" class="form-control" placeholder="Check-in" required="" />
+						</div>
+					</div>
+					<div class="form-group agileits_ryuzak_form w3_agileits_margin">
+						<div class="wthree_input">
+							<h5 class="booking">Check-out</h5>
+							<input id="Name" type="date" name="Name" class="form-control" placeholder="Check-out" required="" />
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</fieldset>
+				<!-- Next Form -->
+				<fieldset>
+					<h3>Reservation Preview</h3>
+					<div class="features-grid-container">
+						<!-- 2nd row -->
+						<div class="d-flex-r features-grid-row" id="sec-row">
+						  <!-- img -->
+						  <div class="features-grid-row-img w-50">
+							<img src="../img/room/76999413-1449106825266201-7361920849852497920-o-1@1x.png" alt="">
+						  </div>
+						  <!-- text -->
+						  <div class="features-grid-row-text w-50">
+							<div class="m-3">
+							  <h2 class="text-pink font-x2">Room Name</h2>
+							  <div>
+								<p class="text-dark text-justify font-xs">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore qui, tempora eaque in temporibus eligendi aspernatur animi nisi vitae quas ea perspiciatis. Voluptas numquam quod consequatur.</p>
+							  </div>
+							 
+							</div>
+						  </div>
+						  </div>
+								</div>
+				</fieldset>
+				<!-- End of Next Form -->
+				<!-- Next Form -->
+				<fieldset>
+					<h3>Transportation Service</h3>
+					<h4 class="ryuzak_type">Where do you want to be pick up?</h4>
+					<div class="form-group agileits_circles">
+						<div class="wthree_radio">
+							<span class="fa fa-cab" aria-hidden="true"></span>
+							<label class="radio">
+								<input type="radio" name="radio" checked="">
+								<i></i>Tabaco City
+							</label>
+						</div>
+					</div>
+					<div class="form-group agileits_circles">
+						<div class="wthree_radio">
+							<span class="fa fa-cab" aria-hidden="true"></span>
+							<label class="radio">
+								<input type="radio" name="radio">
+								<i></i>Legazpi, Airport
+							</label>
+						</div>
+					</div>
+					<div class="form-group agileits_circles">
+						<div class="wthree_radio">
+							<span class="fa far fa-times-circle" aria-hidden="true"></span>
+							<label class="radio">
+								<input type="radio" name="radio">
+								<i></i>None
+							</label>
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</fieldset>
+				<!-- End of Next Form -->
+				<fieldset>
+					<h3 class="w3_room">Room Details</h3>
+					<div class="form-group ryuzak_description">
+						<i class="fa fa-align-right" aria-hidden="true"></i>
+						<textarea name="Message" placeholder="Your message here..." required=""></textarea>
+					</div>
+				</fieldset>
+				<fieldset>
+					<h3 class="w3_room">Online Payment</h3>
+					<div class="form-group ryuzak_description">
+						<div class="insert-code-here">
+							<h1>Insert code dito po</h1>
+						</div>
+						
+					</div>
+				</fieldset>
+	
+				<p>
+					<button id="SaveAccount" class="btn btn-primary agileinfo_primary submit">Submit</button>
+				</p>
+			</form>
+			<div class="social">
+				<a href="#"><img  class="fb"src="images/icons/icons8-facebook-96.png" alt=""></a>
+				<a href="#"><img class="ig" src="images/icons/icons8-instagram-96.png" alt=""></a>
+				<a href="#"><img class="twitter" src="images/icons/icons8-twitter-96.png" alt=""></a>
+				<a href="#"><img class="yt" src="images/icons/icons8-youtube-96.png"alt=""></a>
+			  </div>
+			<!-- Modal -->
+			<div class="agileits_copyright">
+				<p> Read Corana Virus | <a href="#" id="modal-show" class="modal-show">Terms and Policy</a></p>
+			</div>
+			<div class="center">
+			<div class="content">
+				<div class="header">
+					<h2 class="Terms">Terms and Policy</h2>
+				</div>
+				<img class="corona" src="book-formFin/images/istockphoto-1210517344-170667a-removebg-preview.png" alt="">
+				<p class="policy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis magnam exercitationem reiciendis. Unde ducimus eos repudiandae atque iure reprehenderit et.</p>
+				<div class="line"></div>
+				<label for="click" class="close-btn">Close</label>
+			</div>
+			</div>
+			<!-- End of Modal -->
+		</div>
+	</div>
+	
+		
+
+
+	
+	<script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.formtowizard.js"></script>
+
+    <script>
+        $( function() {
+            var $signupForm = $( '#SignupForm' );
+
+            $signupForm.validate({errorElement: 'em'});
+
+            $signupForm.formToWizard({
+                submitButton: 'SaveAccount',
+                nextBtnClass: 'btn btn-primary next',
+                prevBtnClass: 'btn btn-default prev',
+                buttonTag:    'button',
+                validateBeforeNext: function(form, step) {
+                    var stepIsValid = true;
+                    var validator = form.validate();
+                    $(':input', step).each( function(index) {
+                        var xy = validator.element(this);
+                        stepIsValid = stepIsValid && (typeof xy == 'undefined' || xy);
+                    });
+                    return stepIsValid;
+                },
+                progress: function (i, count) {
+                    $('#progress-complete').width(''+(i/count*100)+'%');
+                }
+            });
+		});
+	</script>
+	<script type ="text/javascript">
+	function numberonly(input)
+	{
+		var num = /[^0-9]/gi;
+		input.value = input.value.replace(num,"");
+	}
+
+	</script>
+	<script>
+		document.getElementById('modal-show').addEventListener('click', 
+function (){
+    document.querySelector('.center').style.display = 'flex';
+
+});
+document.querySelector('.close-btn').addEventListener('click', function(){
+	document.querySelector('.center').style.display= 'none';
+})
+	</script>
+	<script src="js/navbar.js"></script>
+	
+</body>
+</html>

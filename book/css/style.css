@@ -1,0 +1,1117 @@
+/*--
+Author: Ognimo
+Author URL: http://ryuzak.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://ryuzak.org/licenses/by/3.0/
+--*/
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* start editing from here */
+a {
+  text-decoration: none;
+}
+.txt-rt {
+  text-align: right;
+} /* text align right */
+.txt-lt {
+  text-align: left;
+} /* text align left */
+.txt-center {
+  text-align: center;
+} /* text align center */
+.float-rt {
+  float: right;
+} /* float right */
+.float-lt {
+  float: left;
+} /* float left */
+.clear {
+  clear: both;
+} /* clear float */
+.pos-relative {
+  position: relative;
+} /* Position Relative */
+.pos-absolute {
+  position: absolute;
+} /* Position Absolute */
+.vertical-base {
+  vertical-align: baseline;
+} /* vertical align baseline */
+.vertical-top {
+  vertical-align: top;
+} /* vertical align top */
+nav.vertical ul li {
+  display: block;
+} /* vertical menu */
+nav.horizontal ul li {
+  display: inline-block;
+} /* horizontal menu */
+img {
+  max-width: 100%;
+}
+.booking {
+  color: rgb(27, 88, 90);
+  font-size: 18px;
+  font-weight: 500;
+  font-style: oblique;
+}
+/*end reset*/
+html,
+body {
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+  background: url(../images/4.jpg) no-repeat 0px 0px;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-attachment: fixed;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+a,
+select {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+ul,
+label {
+  margin: 0;
+  padding: 0;
+}
+.reservation {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: oblique;
+}
+body a:hover,
+body a {
+  text-decoration: none;
+}
+/*-- main --*/
+.agileits_copyright {
+  text-align: center;
+}
+.agileits_copyright p {
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.8em;
+  padding: 0 1em;
+  text-transform: capitalize;
+  margin-top: 2em;
+}
+.agileits_copyright p a {
+  color: aquamarine;
+  text-decoration: none;
+}
+.agileits_copyright p a:hover {
+  color: red;
+}
+input[type="submit"],
+.agileits_copyright p a,
+a {
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  -ms-transition: 0.5s ease-in;
+}
+.main {
+  padding: 3em 0;
+}
+/* navbar */
+
+/* End of navbar */
+/*-- //main --*/
+.w3_agile_main_grids {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+#steps {
+  margin: 80px 0 0 0;
+}
+.commands {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.prev {
+  float: left;
+}
+.next,
+.submit {
+  float: right;
+}
+.error {
+  color: red;
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+}
+#click {
+  display: none;
+}
+.click-me {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.main .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center {
+  display: none;
+}
+.content {
+  width: 37.5rem;
+  height: 34.38rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  height: 4.25rem;
+  background: cadetblue;
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.header h2 {
+  color: rgb(238, 238, 238);
+  letter-spacing: 0.1rem;
+  padding-left: 2.5rem;
+  padding-top: 1.25rem;
+  font-style: oblique;
+}
+.content .corona {
+  height: 15rem;
+  width: auto;
+  padding: 1.25rem 11.25rem;
+}
+.content .policy {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  text-align: justify;
+}
+.line {
+  position: absolute;
+  bottom: 3.75rem;
+  width: 100%;
+  height: 1px;
+  background: silver;
+}
+.close-btn {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1.5rem;
+  border: 1px solid cadetblue;
+  border-radius: 3px;
+  color: cadetblue;
+  padding: 8px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  font-style: oblique;
+  font-weight: 500;
+  font-family: "Raleway";
+}
+.close-btn:hover {
+  background: cadetblue;
+  color: blanchedalmond;
+}
+
+#check-in {
+  float: right;
+}
+#progress {
+  position: relative;
+  height: 15px;
+  background-color: #eee;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+#progress-complete {
+  border: 0;
+  position: absolute;
+  height: 15px;
+  min-width: 10px;
+  background-color: cadetblue;
+  transition: width 0.5s ease-in-out;
+  border-radius: 20px;
+}
+.agile_form {
+  padding: 3em;
+  background: rgba(223, 220, 219, 0.8);
+
+  border-radius: 10px;
+}
+.w3_agile_main_grids h3 {
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+.agileits_ryuzak_form {
+  width: 48.05%;
+  float: left;
+  margin-bottom: 1.5em;
+}
+.wthree_input,
+.ryuzak_description {
+  position: relative;
+}
+.wthree_input i {
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  color: #38a90e;
+}
+.wthree_input input[type="text"],
+.ryuzak_description textarea,
+.wthree_input select,
+.wthree_input input[type="email"],
+.wthree_input input[type="number"],
+.wthree_input input[type="password"] {
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #212121;
+  font-size: 14px;
+  font-style: normal;
+  color: #212121;
+  padding: 1em 1em 1em 2em;
+  width: 85.5%;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.w3_agileits_margin {
+  margin-right: 1.5em;
+}
+.w3_agileits_margin select {
+  width: 100% !important;
+}
+.ryuzak_description textarea {
+  width: 93% !important;
+  min-height: 170px;
+}
+.ryuzak_description i {
+  position: absolute;
+  left: 0%;
+  top: 8%;
+  color: #38a90e;
+}
+::-webkit-input-placeholder {
+  color: #212121 !important;
+}
+.btn-primary,
+button#step1Prev,
+button#step2Prev,
+button#step3Prev {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 45px;
+  background: cadetblue;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.w3_agile_main_grids h4 {
+  color: #d65c0d;
+  font-size: 1em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2em;
+  letter-spacing: 2px;
+}
+.agileits_circles {
+  float: left;
+  width: 33.33%;
+}
+label.radio {
+  font-size: 1em;
+  font-weight: 500;
+  color: #212121;
+  padding-left: 20px;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-top: 4px \9;
+  margin-left: -20px;
+}
+.checkbox input,
+.radio input {
+  position: absolute;
+  left: -9999px;
+}
+.radio i {
+  position: absolute;
+  top: 10%;
+  left: 36.5%;
+  display: block;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+.radio input + i:after {
+  content: "";
+  top: 30%;
+  left: 31%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: cadetblue !important;
+}
+.checkbox input + i:after,
+.radio input + i:after {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.1s;
+  -o-transition: opacity 0.1s;
+  -ms-transition: opacity 0.1s;
+  -moz-transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+}
+.checkbox input:checked + i:after,
+.radio input:checked + i:after {
+  opacity: 1;
+}
+.icon i {
+  font-size: 2em;
+  color: #38a90e;
+  line-height: 3.5em;
+}
+.wthree_radio {
+  text-align: center;
+  cursor: pointer;
+}
+.wthree_radio span {
+  font-size: 2em;
+  color: #38a90e;
+}
+/*-- start-responsive-design --*/
+@media (max-width: 1440px) {
+  .w3_agile_main_grids {
+    width: 50%;
+  }
+}
+@media (max-width: 1366px) {
+  .w3_agile_main_grids {
+    width: 53%;
+  }
+}
+@media (max-width: 1280px) {
+  .w3_agile_main_grids {
+    width: 56%;
+  }
+}
+@media (max-width: 1080px) {
+  .w3_agile_main_grids {
+    width: 66%;
+  }
+}
+@media (max-width: 1024px) {
+  .w3_agile_main_grids {
+    width: 71%;
+  }
+}
+@media (max-width: 991px) {
+  .w3_agile_main_grids {
+    width: 73%;
+  }
+}
+@media (max-width: 800px) {
+  .main h1 {
+    font-size: 2.7em;
+  }
+  .agile_form {
+    padding: 2em;
+  }
+  .agileits_w3layouts_form {
+    width: 47.65%;
+  }
+  .wthree_input input[type="text"],
+  .w3ls_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 83%;
+  }
+  #progress,
+  #progress-complete {
+    height: 10px;
+  }
+  .radio i {
+    left: 33.5%;
+  }
+  .w3_agile_main_grids {
+    width: 74%;
+  }
+  .center {
+    width: 45%;
+  }
+  .content {
+    width: 80%;
+  }
+  .content .corona {
+    height: 15rem;
+    width: auto;
+    padding: 1.25rem 7rem;
+  }
+}
+@media (max-width: 768px) {
+  .w3_agile_main_grids {
+    width: 77%;
+  }
+  .w3_agile_main_grids h3 {
+    margin-bottom: 1.5em;
+  }
+  .agileits_w3layouts_form {
+    width: 47.5%;
+  }
+}
+@media (max-width: 736px) {
+  .main h1 {
+    font-size: 2.4em;
+    letter-spacing: 3px;
+  }
+  .w3_agile_main_grids {
+    width: 81%;
+  }
+  .commands {
+    margin-top: 1em;
+  }
+  .wthree_input i {
+    top: 29%;
+  }
+  .w3ls_description i {
+    top: 7%;
+  }
+}
+@media (max-width: 667px) {
+  .w3_agile_main_grids {
+    width: 89%;
+  }
+}
+@media (max-width: 640px) {
+  .agileits_ryuzak_form {
+    width: 47.5%;
+  }
+  .radio input + i:after {
+    top: 33%;
+    left: 36%;
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .agileits_ryuzak_form {
+    width: 46.7%;
+  }
+  .wthree_input input[type="text"],
+  .w3ls_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 80%;
+  }
+  .radio i {
+    left: 31.5%;
+  }
+  .w3ls_description textarea {
+    width: 90% !important;
+  }
+}
+@media (max-width: 568px) {
+  .main {
+    padding: 2em 0;
+  }
+  .main h1 {
+    font-size: 2em;
+  }
+  .w3_agile_main_grids h3 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+  .wthree_input input[type="text"],
+  .w3ls_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 78.5%;
+  }
+  .agileits_copyright p {
+    font-size: 14px;
+  }
+  .wthree_radio span {
+    font-size: 1.5em;
+  }
+  .radio i {
+    left: 34.5%;
+    top: 13%;
+    width: 40px;
+    height: 40px;
+  }
+  .radio input + i:after {
+    top: 38%;
+    left: 36%;
+    width: 10px;
+    height: 10px;
+  }
+  label.radio {
+    font-size: 14px;
+  }
+  .w3ls_description textarea {
+    min-height: 150px;
+  }
+  .wthree_input select {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 480px) {
+  .wthree_input input[type="text"],
+  .w3ls_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 75.5%;
+  }
+  .wthree_input i {
+    font-size: 14px;
+  }
+  .wthree_input input[type="text"],
+  .ryuzak_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    font-size: 13px;
+  }
+  .w3_agile_main_grids h4 {
+    font-size: 15px;
+  }
+  .radio i {
+    left: 30.5%;
+  }
+  .agileits_ryuzak_form {
+    width: 46.5%;
+  }
+}
+@media (max-width: 414px) {
+  .main h1 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+  }
+  #progress,
+  #progress-complete {
+    height: 5px;
+  }
+  .agile_form {
+    padding: 1.5em;
+  }
+  .agileits_ryuzak_form {
+    width: 100%;
+    float: none;
+  }
+  .wthree_input input[type="text"],
+  .ryuzak_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 87%;
+  }
+  .w3_agileits_margin {
+    margin-right: 0;
+  }
+  .agileits_ryuzak_form {
+    margin-bottom: 1em;
+  }
+  .commands {
+    margin-top: 0;
+    padding: 1em 0 0;
+  }
+  .w3_agile_main_grids h4 {
+    letter-spacing: 0px;
+  }
+  .w3ls_description i {
+    top: 7.5%;
+    font-size: 14px;
+  }
+  .ryuzak_description textarea {
+    width: 87% !important;
+  }
+}
+@media (max-width: 384px) {
+  .wthree_input input[type="text"],
+  .ryuzak_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 86%;
+  }
+  .radio i {
+    left: 27.5%;
+  }
+  .btn-primary,
+  button#step1Prev,
+  button#step2Prev {
+    font-size: 13px;
+    padding: 8px 25px;
+  }
+  .ryuzak_description textarea {
+    width: 86% !important;
+  }
+}
+@media (max-width: 375px) {
+  .main h1 {
+    font-size: 1.7em;
+    letter-spacing: 1px;
+  }
+  .wthree_input input[type="text"],
+  .ryuzak_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 85%;
+  }
+  .radio i {
+    left: 26.5%;
+  }
+}
+@media (max-width: 320px) {
+  .main h1 {
+    font-size: 1.5em;
+    letter-spacing: 0px;
+  }
+  .w3_agile_main_grids h3 {
+    font-size: 1.2em;
+  }
+  .agile_form {
+    padding: 1em;
+  }
+  .wthree_input input[type="text"],
+  .ryuzak_description textarea,
+  .wthree_input select,
+  .wthree_input input[type="email"],
+  .wthree_input input[type="password"] {
+    width: 83%;
+  }
+  .wthree_input i {
+    top: 30%;
+  }
+  .agileits_copyright p {
+    font-size: 13px;
+  }
+  label.radio {
+    padding: 4em 0 2em;
+  }
+  .radio i {
+    left: 28%;
+    width: 30px;
+    height: 30px;
+  }
+  .radio input + i:after {
+    top: 35%;
+    left: 34%;
+  }
+  .w3_agile_main_grids h4,
+  label.radio {
+    font-size: 13px;
+  }
+  .ryuzak_description textarea {
+    min-height: 120px;
+    width: 84% !important;
+  }
+  .ryuzak_description i {
+    top: 9.5%;
+  }
+}
+/* navbar */
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::selection {
+  background: rgb(0, 123, 255, 0.3);
+}
+
+.nav-bar {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+.navbar.sticky {
+  background: #494545;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.navbar .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.logo-icon {
+  width: 12.5rem;
+  margin-left: -3.75rem;
+}
+.navbar .menu-list {
+  display: inline-flex;
+}
+.menu-list li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menu-list li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 25px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover {
+  color: #007bff;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+@media (max-width: 1230px) {
+  .nav-bar {
+    padding: 0 60px;
+  }
+  .logo-icon {
+    margin-left: auto;
+  }
+  .menu-list li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .menu-list li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 3px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-bar {
+    padding: 0 40px;
+  }
+  .logo-icon {
+    margin-left: auto;
+  }
+  .menu-list li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .menu-list li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 3px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+}
+@media (max-width: 900px) {
+  .nav-bar {
+    padding: 0 30px;
+    margin: -30px;
+  }
+  .logo-icon {
+    float: left;
+  }
+  .menu-list li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .menu-list li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 3px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .menu-btn {
+    margin: 25px;
+  }
+}
+@media (max-width: 950px) {
+  .nav-bar {
+    padding: 0 30px;
+    margin: -30px;
+  }
+  .logo-icon {
+    float: left;
+  }
+  body.disabled {
+    overflow: hidden;
+  }
+  .icon {
+    display: block;
+  }
+  .menu-btn {
+    margin: 25px;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #222;
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+  .navbar .menu-list li {
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
+  .logo-icon {
+    margin-left: auto;
+  }
+}
+@media (max-width: 380px) {
+  .nav-bar {
+    padding: 0 30px;
+    margin: -30px;
+  }
+
+  .navbar .logo a {
+    font-size: 27px;
+  }
+  .logo-icon {
+    margin-left: auto;
+  }
+}
+/* end of navbar */
+/* social */
+
+.social {
+  display: flex;
+  position: relative;
+  margin-left: -18.75rem;
+}
+.social a img {
+  width: 50px;
+  height: auto;
+  margin: 0.5rem;
+  margin-bottom: -2.5rem;
+}
+#walalang{
+  font-family: 'Montserrat', serif;
+  font-size: 48px;
+
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400italic,600,800");
+
+html {
+
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::selection {
+  background: rgb(0, 123, 255, 0.3);
+}
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+.content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar {
+  margin-top: -10px;
+  background-image: linear-gradient(60deg, #5f0d9dcb 0%, #2ea087 100%);
+  padding: 10px 0;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+}
+.navbar.sticky {
+  background-image: linear-gradient(60deg, #5f0d9dcb 0%, #2ea087 100%);
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+}
+
+.logo-icon {
+  width: 18% !important;
+  height: 18% !important;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+/* back button */
+.prevPage {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10rem;
+  align-items: center;
+  appearance: none;
+  background-image: linear-gradient(60deg, #6b16accd 0%, #31b498 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.prevPage i{
+  font-size: 2rem;
+  color: white;
+}
+
+.prevPage:focus {
+  box-shadow: #d6d8e3 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #d5d6e1 0 -3px 0 inset;
+}
+
+.prevPage:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #d2d4df 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #d6d8e0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+/* end of back button */
+
+/* footer */
+.bottom center {
+  padding: 5px;
+  font-size: 1.2rem;
+  background: #151515;
+  margin-bottom: 0 !important;
+}
+.bottom center span {
+  color: blanchedalmond;
+}
+.bottom center a {
+  color: cadetblue;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}
+.p-footer{
+  margin: 20px;
+  letter-spacing: normal;
+  font-size: 15px;
+  color: white;
+}
+
+/* End of Footer */
+
+
+@media (max-width: 1280px){
+  .logo-icon{
+    width: 18% !important; 
+    height: 18% !important;
+    margin-right: 12rem;
+  }
+}
+@media (max-width: 1230px) {
+  .content {
+    padding: 0 60px;
+  }
+  .logo-icon {
+    margin-left: auto;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .content {
+    padding: 0 40px;
+  }
+  .prevPage{
+    margin-top: 1px;
+    height: 38px;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  body.disabled {
+    overflow: hidden;
+  }
+  .logo-icon {
+    width: 18% !important;
+    height: 18% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .content {
+    padding: 0 30px;
+    max-width: 900px;
+  }
+  .logo-icon {
+    width: 18% !important;
+    height: 18% !important;
+    margin-left: 6rem;
+  }
+  .prevPage{
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 600px){
+  .logo-icon{
+    width: 25% !important; 
+    height: 25% !important;
+    margin-top: 3px;
+  }
+  .prevPage{
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 500px){
+  .logo-icon{
+    width: 32% !important;
+    height: 32% !important;
+    margin-top: .5rem;
+    margin-left: -1rem;
+    margin-right: 0;
+  }
+  .prevPage{
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .content{
+    width: auto;
+  }
+}
