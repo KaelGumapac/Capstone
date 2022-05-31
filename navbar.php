@@ -12,7 +12,7 @@
   <nav class="navbar">
     <div class="content">
       <div class="logo">
-        <a href="#"><img class="logo-icon" style ='width:80%; height:80%;'src="assets/Img/icons/maybe.png" alt=""></a>
+        <a href="#"><img class="logo-icon" style ='width:80%; height:80%;'src="assets/Img/icons/newlogo.png" alt=""></a>
       </div>
       <ul class="menu-list">
         <div class="icon cancel-btn">

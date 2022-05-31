@@ -80,11 +80,11 @@ if(isset($_POST['book_submit']))
                 <label for="radio">Where to pick up:</label>
                 <div class="field">
                     <select id="radio" name="radio" required>
-                                <option disabled selected value="">--</option>
-                                <option value="None">None</option>
-                                <option value="Tabaco City">Tabaco City</option>
-                                <option value="Legazpi Airport">Legazpi Airport</option>
-                            </select>
+                        <option disabled selected value="">--</option>
+                        <option value="None">None</option>
+                        <option value="Tabaco City">Tabaco City</option>
+                        <option value="Legazpi Airport">Legazpi Airport</option>
+                    </select>
                 </div>
                
                 <label for="phone">Phone</label>
@@ -146,7 +146,7 @@ if(isset($_POST['book_submit']))
                     <textarea id="message" name="message" placeholder="Please type your special request"></textarea>
                 </div>
                 <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms"> I have read and agree to the <a data-toggle="modal" data-target="#myModal">terms and conditions</a></label><br>
+                <span for="terms"> I have read and agree to the <a data-toggle="modal" data-target="#myModal">terms and conditions</a></label><br>
                 <input type="submit" value="Proceed To Payment" name="confirm" >
 
 			</div>
@@ -176,7 +176,7 @@ if(isset($_POST['book_submit']))
 <br><br>&emsp;&emsp;At 24/7 Balikbayan Fun Resort, we take your privacy seriously, we will only use your personal information to facilitate your booking and reservation that you have availed on us, to confirm prior transactions and reconcile statements or invoices. In particular, we ask for certain sensitive personal information to ensure that only legally eligible and qualified persons can avail our products and services we have on offer.
 <br><br>&emsp;&emsp;24/7 Balikbayan Fun Resort is responsible for using your personal data.
 
-<br><br>&emsp;&emsp;Should you have further queries, you may reach us thru email: balikbayanfunresorts@gmail.com or call us at +63 916-7978-187.
+<br><br>&emsp;&emsp;Should you have further queries, you may reach us thru <br>Email: balikbayanfunresorts@gmail.com<br>Call us at +63 916-7978-187.
                         </li><br>
                     </ol> 
                 <div class="modal-footer">
@@ -245,5 +245,4 @@ function calculate() {
     }
     $('#calculated').val(diff);
   }
-
   </script>

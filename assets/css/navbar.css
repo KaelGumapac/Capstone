@@ -69,6 +69,8 @@ body{
   width: 12rem;
   margin-left: -3.75rem;
   text-shadow: 2px 2px 2px #000;
+  height: 80%;
+  
 }
 .navbar .menu-list {
   display: inline-flex;
@@ -205,6 +207,9 @@ body{
   .icon {
     display: block;
   }
+  .logo{
+    display: none;
+  }
   .icon.hide {
     display: none;
   }
@@ -221,7 +226,7 @@ body{
     display: block;
     padding: 40px 0;
     text-align: center;
-    background: #222;
+    background-image: linear-gradient(60deg, #45337f 0%, #032d5a 100%);
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list {

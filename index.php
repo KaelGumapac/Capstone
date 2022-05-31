@@ -33,6 +33,7 @@ $date = date("m-d-y");
         <input type="hidden" name="home_days" id="calculated"> 
     
       </form>
+      <div id="inline-picker"></div>
     <!-- End of inline Form -->
     <section id="video" >
         <div class="video-bg">
@@ -46,6 +47,13 @@ $date = date("m-d-y");
 <!-- Setting of Date -->
 
 <script>
+$('#inline-picker').mobiscroll().datepicker({
+    controls: ['calendar'],
+    select:'range',
+    display: 'inline',
+    touchUi: true
+});
+
 $('#checkin').datepicker({
     dateFormat: 'yy-mm-dd',
     showAnim: 'drop',
@@ -292,10 +300,9 @@ function calculate() {
   <section class="wrapper bg-white-2" id="features-grid">
     <div class="features-grid-container">
       <!-- title -->
-      <div class="container d-flex-r text-center">
+      <div class="container d-flex-r text-center mapa">
         <!-- <h2 class="title text-black font-x3">Rooms</h2> -->
       </div>
-      
       <!-- 3rd row -->
       <div class="d-flex-q features-grid-row" id="third-row">
         <!-- img -->

@@ -104,6 +104,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
 
 <!-- Link for Icon -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- End for Icon -->
   <div class="about">
     <div class="content">
@@ -137,7 +138,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
             <?php
               if($count1111 < 1)
               {
-              echo '<button class="flex1" name="book_submit"><span><a href="#">BOOK NOW</a></span><i class="fas fa-arrow-circle-right"></i></button>';
+              echo '<button class="flex1" name="book_submit"><p class="bookbtn">BOOK NOW</p><i class="fas fa-arrow-circle-right"></i></button>';
               }
               else
               {
@@ -171,7 +172,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
             <?php
               if($count2222 < 1)
               {
-              echo '<button class="flex1" name="book_submit"><span><a href="#">BOOK NOW</a></span><i class="fas fa-arrow-circle-right"></i></button>';
+              echo '<button class="flex1" name="book_submit"><p>BOOK NOW</p><i class="fas fa-arrow-circle-right"></i></button>';
               }
               else
               {
@@ -205,7 +206,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
             <?php
               if($count5555 < 1)
               {
-              echo '<button class="flex1" name="book_submit"><span><a href="#">BOOK NOW</a></span><i class="fas fa-arrow-circle-right"></i></button>';
+              echo '<button class="flex1" name="book_submit"><p class="bookbtn">BOOK NOW</p><i class="fas fa-arrow-circle-right"></i></button>';
               }
               else
               {
@@ -239,7 +240,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
             <?php
               if($count3333 < 1)
               {
-              echo '<button class="flex1" name="book_submit"><span><a href="#">BOOK NOW</a></span><i class="fas fa-arrow-circle-right"></i></button>';
+              echo '<button class="flex1" name="book_submit"><p class="bookbtn">BOOK NOW</p><i class="fas fa-arrow-circle-right"></i></button>';
               }
               else
               {
@@ -271,7 +272,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
             <?php
               if($count4444 < 1)
               {
-              echo '<button class="flex1" name="book_submit"><span><a href="#">BOOK NOW</a></span><i class="fas fa-arrow-circle-right"></i></button>';
+              echo '<button class="flex1" name="book_submit"><p class="bookbtn">BOOK NOW</p><i class="fas fa-arrow-circle-right"></i></button>';
               }
               else
               {
@@ -305,7 +306,7 @@ $count5555 = $count5['total'] + $count55['total'] + $count555['total'];
             <?php
               if($count5['total'] < 1)
               {
-              echo '<button class="flex1" name="book_submit"><span><a href="#">BOOK NOW</a></span><i class="fas fa-arrow-circle-right"></i></button>';
+              echo '<button class="flex1" name="book_submit"><p class="bookbtn">BOOK NOW</p><i class="fas fa-arrow-circle-right"></i></button>';
               }
               else
               {
